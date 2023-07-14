@@ -55,13 +55,50 @@ header h2 {
   height: 68px;
   background: #333;
   color: #fff;
-  font-family:monospace;
+  font-family: monospace;
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 0.49px;
   text-transform: uppercase;
 }
-.btn:hover{
-    background-color: #caaaaa;
-    cursor: pointer;
+.btn:hover {
+  background-color: #caaaaa;
+  cursor: pointer;
+}
+.foot {
+  color: #bdbdbd;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  padding-bottom: 24px;
+}
+.name {
+  color: #bdbdbd;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+@media screen and (max-width:576px) {
+    .container{
+        flex-direction: column;
+    }
+    header h2{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .scare-img{
+        height: 250px;
+        width: 250px;
+    }
+    .container-title{
+          width: 394px;
+          letter-spacing: 1.24px;
+          font-size: 48px;
+    }
+    .info-container {
+        padding-left: 24px;
+    }
 }
